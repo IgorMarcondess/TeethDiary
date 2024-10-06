@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         val email = EmailEditText.text.toString();
         val senha = PasswordEditText.text.toString().toIntOrNull();
 
-        if (email == "admin" && senha == 1234){
+        if (email == "admin" && senha == 12345){
             sucessTextView.isInvisible = false;
             sucessTextView.text = "Credenciais válidas! Entrando...";
             ErrorTextView.isInvisible = true;
